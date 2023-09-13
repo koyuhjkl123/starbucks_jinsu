@@ -1,0 +1,271 @@
+@charset "utf-8";
+
+#banner {
+    height: 160px;
+    background: #0e3c84;
+}
+
+#banner>div {
+    position: relative;
+    /* absolute 좌표 기준점 */
+    /* border: 1px solid; */
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#banner .prev,
+#banner .next,
+#banner .control,
+#banner .close {
+    position: absolute;
+}
+
+#banner .prev {
+    left: 0;
+    top: 42px;
+}
+
+#banner .next {
+    right: 0;
+    top: 42px;
+}
+
+#banner .control {
+    left: 0;
+    bottom: 11px;
+    font-size: 0;
+}
+
+#banner .control a {
+    margin: 0 15px 0 0;
+}
+
+#banner .close {
+    right: 0;
+    bottom: 4px;
+}
+
+#banner .close label {
+    padding: 0 22px 0 0;
+    font-size: 11px;
+    color: #fff;
+}
+
+
+/* header_메뉴바 */
+#header {
+    height: 99px;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+#header>div {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header>div>* {
+    float: left;
+
+}
+
+#header h1 {
+    padding: 0 20px 0 0;
+}
+
+#header #lnb li {
+    float: left;
+    padding: 0 16px;
+}
+
+#header #lnb li a {
+    display: block;
+    height: 99px;
+    line-height: 99px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+#header #lnb li a:hover {
+    border-bottom: 4px solid #1764dc;
+    height: 95px;
+    color: #3c60f3;
+    background: url(../image/bg_lnb.gif) no-repeat center 87px;
+}
+
+#header p {
+    height: 99px;
+    float: left;
+    line-height: 99px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #0e3c84;
+
+}
+
+#header p span {
+    color: #1764dc;
+}
+
+#header>div>div>div {
+    padding: 30px 0 0 0;
+    font-size: 0;
+    padding-left: 11px;
+    float: left;
+
+}
+
+#header .btn_pop {
+    display: inline-block;
+    width: 75px;
+    height: 40px;
+    background: url(../image/bu_arrow_down.gif) no-repeat 55px center #2cc06b;
+    /* position: relative; top: -9px; */
+    /* vertical-align: middle; < 맞지 않을경우 위 코딩 적용 */
+    font-size: 13px;
+    color: #fff;
+    line-height: 40px;
+    text-indent: 9px;
+}
+
+#header>div>div a {
+    vertical-align: middle;
+}
+
+#header>div>div {
+    float: right;
+}
+
+#visual {
+    background: url(../image/bg_visual.jpg) no-repeat center top;
+}
+
+#visual>div {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#visual .copy {
+    padding: 71px 0 0 0;
+}
+
+#visual .copy>div {
+    float: left;
+    width: 33.33%;
+}
+
+#visual .copy .txt1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 12px;
+    padding: 127px 0 0 0;
+    /* text-align: center; */
+}
+
+#visual .copy .txt1 div {
+    font-size: 33px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0;
+}
+
+#visual .copy .txt1 img {
+    margin: 0 22px 0 8px;
+}
+
+#visual .copy .txt2 {
+    background: url(../image/bg_circle.png) no-repeat center;
+    width: 399px;
+    height: 264px;
+    font-family: 'russell_squareregular';
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0 0 0;
+}
+
+#visual .copy .txt2 div {
+    font-size: 135px;
+    font-family: 'russell_squareregular';
+    color: #fff;
+}
+
+#visual .copy .txt3 {
+    color: #fff;
+    width: 340px;
+    float: right;
+    font-family: 'russell_squareregular';
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 15px;
+    padding: 109px 0 37px 0;
+
+}
+
+#visual .copy .txt3 div {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+#visual .paging {
+    text-align: center;
+    padding: 27px 0 16px;
+}
+
+#visual .paging div {
+    padding: 17px 0 0 0;
+}
+
+#visual .paging ul {
+    font-size: 0;
+    display: inline-block;
+}
+
+#visual .paging li {
+    display: inline-block;
+    margin: 0 7px 7px 0;
+}
+
+#visual .paging p {
+    display: inline-block;
+    margin: 0 7px 7px 0;
+    font-size: 0;
+}
+
+#visual .bottom h2 {
+    float: left;
+    width: 100px;
+    height: 67px;
+    background: #f13009;
+    text-align: center;
+    font-size: 18px;
+    padding: 33px 0 0 0;
+}
+
+#visual .bottom .event {
+    padding: 0 80px;
+    float: left;
+    width: 730px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+#visual .bottom .event div {
+    position: absolute;
+    left: 38px;
+    top: 28px;
+}
+
+#visual .bottom .weather {
+    float: right;
+}
+
+#visual .bottom .event div a {
+    display: block;
+    margin: 0 0 32px;
+}

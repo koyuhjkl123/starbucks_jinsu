@@ -1,0 +1,45 @@
+@font-face{
+    font-family: 'russell_squareregular';
+    src: url('ufonts.com_russell-square-regular.woff2')format('woff2'),
+         url('ufonts.com_russell-square-regular.woff')format('woff');
+         font-weight: normal;
+         font-style: normal;
+}
+
+
+/* https://raw.githubusercontent.com/ParkYoungWoong/overwatch-hero-selector-vanilla/master/images/hero1.png
+O */
+/* 
+블록요소
+div, p, h1~h6, ul, li
+
+인라인 요소
+span, img, a, , label, <br/> < 줄 바꿈
+*/
+
+/* 인라인,블록 요소 
+input
+*/
+
+div {
+    width: 500px;
+    height: 500px;
+    background: url("../images/logo.png");
+}
+span { /* span 태그는 인라인 요소 글자취급 가로,세로 가질 수 없음 */
+    width: 100px; /* 적용 안됌 */
+    height: 100px; /*적용 안됌 */
+    background-color: red;
+    font-size: 100px;
+
+}
+
+.margin {
+    margin: 5px; /* 인라인 요소는 마진 적용 안됨*/
+    border: 1px solid;
+}
+.padding {
+    padding: 15px;
+    font-size: 65px;
+    border: 1px solid;
+}

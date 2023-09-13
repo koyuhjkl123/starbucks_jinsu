@@ -1,0 +1,51 @@
+a{
+    text-decoration: none;
+    
+}
+li, ul{
+    list-style: none;
+}
+a, li {
+    font-size: 17px;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.banner .banner_left {
+    height: 100px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    background-color: aqua;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.banner .banner_left li {
+    padding: 0 15px 0;
+}
+
+.banner .banner_center {
+
+}
+
+.banner .banner_right {
+    height: 100px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    background-color: aqua;
+    padding-top: 10px;
+    box-sizing: border-box;
+
+}
+.banner .banner_right li {
+    border-right: 1px solid white;
+    padding: 0 15px 0;
+}
